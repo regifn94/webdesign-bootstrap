@@ -1,0 +1,82 @@
+<style>
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 300px;
+  }
+  
+  .form-field {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .form-button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+</style>
+
+<div class="form-container">
+  <input type="text" class="form-field" placeholder="Nama">
+  <input type="email" class="form-field" placeholder="Email">
+  <button class="form-button">Kirim</button>
+</div>
+
+<div style="text-align: center;">
+  <input type="text" style="padding: 8px; display: inline-block;">
+  <button style="padding: 8px 16px; display: inline-block;">Submit</button>
+</div>
+
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .center-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    
+    .form-group {
+      text-align: center;
+      padding: 20px;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      background: #f9f9f9;
+    }
+    
+    .form-group input {
+      padding: 10px;
+      margin-bottom: 10px;
+      width: 200px;
+    }
+    
+    .form-group button {
+      padding: 10px 20px;
+      background: #4CAF50;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <div class="center-container">
+    <div class="form-group">
+      <input type="text" placeholder="Username">
+      <br>
+      <input type="password" placeholder="Password">
+      <br>
+      <button>Login</button>
+    </div>
+  </div>
+</body>
+</html>
